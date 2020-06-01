@@ -1,7 +1,7 @@
 provider "aws" {
   version = "< 2"
 
-  region  = "us-west-2" # Oregon
+  region  = "us-east-1" # N. Virginia
 }
 
 resource "aws_vpc" "web_vpc" {
